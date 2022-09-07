@@ -49,7 +49,8 @@ body{
 }
 
 .info_box{
-    width: 540px;
+    /* width: 310px; */
+    width: 100vw;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -107,7 +108,8 @@ body{
 }
 
 .quiz_box{
-    width: 550px;
+    /* width: 320px; */
+    width: 100vw;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -373,4 +375,12 @@ footer button.show{
 .buttons button.quit:hover{
     color: #fff;
     background: rgb(31, 198, 253);
+}
+
+
+@media only screen and (min-width: 550px) {
+    .info_box,
+    .quiz_box {
+        width: 550px;
+    }
 }
